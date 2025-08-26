@@ -1,0 +1,10 @@
+C:\Users\aluno\Desktop\trabalho do wind\Aula-de-design\bin\Debug\Aula-de-design.exe.config
+C:\Users\aluno\Desktop\trabalho do wind\Aula-de-design\bin\Debug\Aula-de-design.exe
+C:\Users\aluno\Desktop\trabalho do wind\Aula-de-design\bin\Debug\Aula-de-design.pdb
+C:\Users\aluno\Desktop\trabalho do wind\Aula-de-design\obj\Debug\Aula-de-design.csproj.AssemblyReference.cache
+C:\Users\aluno\Desktop\trabalho do wind\Aula-de-design\obj\Debug\Aula_de_design.Form1.resources
+C:\Users\aluno\Desktop\trabalho do wind\Aula-de-design\obj\Debug\Aula_de_design.Properties.Resources.resources
+C:\Users\aluno\Desktop\trabalho do wind\Aula-de-design\obj\Debug\Aula-de-design.csproj.GenerateResource.cache
+C:\Users\aluno\Desktop\trabalho do wind\Aula-de-design\obj\Debug\Aula-de-design.csproj.CoreCompileInputs.cache
+C:\Users\aluno\Desktop\trabalho do wind\Aula-de-design\obj\Debug\Aula-de-design.exe
+C:\Users\aluno\Desktop\trabalho do wind\Aula-de-design\obj\Debug\Aula-de-design.pdb
