@@ -28,75 +28,76 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
+            this.Nome = new System.Windows.Forms.Label();
+            this.Sobrenome = new System.Windows.Forms.Label();
+            this.Endereço = new System.Windows.Forms.Label();
+            this.Telefone = new System.Windows.Forms.Label();
+            this.label = new System.Windows.Forms.Label();
             this.txtNome = new System.Windows.Forms.TextBox();
             this.txtSobrenome = new System.Windows.Forms.TextBox();
             this.txtEndereço = new System.Windows.Forms.TextBox();
             this.txtTelefone = new System.Windows.Forms.TextBox();
             this.txtCidade = new System.Windows.Forms.TextBox();
-            this.txtSalvar = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // label1
+            // Nome
             // 
-            this.label1.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.label1.Font = new System.Drawing.Font("Noto Sans", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(12, 17);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(132, 30);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Nome";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+            this.Nome.AccessibleName = "";
+            this.Nome.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.Nome.Font = new System.Drawing.Font("Noto Sans", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Nome.Location = new System.Drawing.Point(12, 17);
+            this.Nome.Name = "Nome";
+            this.Nome.Size = new System.Drawing.Size(132, 30);
+            this.Nome.TabIndex = 0;
+            this.Nome.Text = "Nome";
+            this.Nome.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            this.Nome.Click += new System.EventHandler(this.label1_Click);
             // 
-            // label2
+            // Sobrenome
             // 
-            this.label2.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.label2.Font = new System.Drawing.Font("Noto Sans", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(12, 82);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(132, 30);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Sobrenome";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            this.label2.Click += new System.EventHandler(this.label2_Click);
+            this.Sobrenome.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.Sobrenome.Font = new System.Drawing.Font("Noto Sans", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Sobrenome.Location = new System.Drawing.Point(12, 82);
+            this.Sobrenome.Name = "Sobrenome";
+            this.Sobrenome.Size = new System.Drawing.Size(132, 30);
+            this.Sobrenome.TabIndex = 1;
+            this.Sobrenome.Text = "Sobrenome";
+            this.Sobrenome.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            this.Sobrenome.Click += new System.EventHandler(this.label2_Click);
             // 
-            // label3
+            // Endereço
             // 
-            this.label3.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.label3.Font = new System.Drawing.Font("Noto Sans", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(12, 218);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(132, 30);
-            this.label3.TabIndex = 3;
-            this.label3.Text = "Endereço";
-            this.label3.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            this.Endereço.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.Endereço.Font = new System.Drawing.Font("Noto Sans", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Endereço.Location = new System.Drawing.Point(12, 218);
+            this.Endereço.Name = "Endereço";
+            this.Endereço.Size = new System.Drawing.Size(132, 30);
+            this.Endereço.TabIndex = 3;
+            this.Endereço.Text = "Endereço";
+            this.Endereço.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
-            // label4
+            // Telefone
             // 
-            this.label4.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.label4.Font = new System.Drawing.Font("Noto Sans", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(12, 153);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(132, 30);
-            this.label4.TabIndex = 2;
-            this.label4.Text = "Telefone";
-            this.label4.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            this.Telefone.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.Telefone.Font = new System.Drawing.Font("Noto Sans", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Telefone.Location = new System.Drawing.Point(12, 153);
+            this.Telefone.Name = "Telefone";
+            this.Telefone.Size = new System.Drawing.Size(132, 30);
+            this.Telefone.TabIndex = 2;
+            this.Telefone.Text = "Telefone";
+            this.Telefone.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
-            // label6
+            // label
             // 
-            this.label6.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.label6.Font = new System.Drawing.Font("Noto Sans", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(12, 277);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(132, 30);
-            this.label6.TabIndex = 4;
-            this.label6.Text = "Cidade";
-            this.label6.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            this.label.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.label.Font = new System.Drawing.Font("Noto Sans", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label.Location = new System.Drawing.Point(12, 277);
+            this.label.Name = "label";
+            this.label.Size = new System.Drawing.Size(132, 30);
+            this.label.TabIndex = 4;
+            this.label.Text = "Cidade";
+            this.label.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // txtNome
             // 
@@ -138,34 +139,35 @@
             this.txtCidade.Size = new System.Drawing.Size(400, 22);
             this.txtCidade.TabIndex = 9;
             // 
-            // txtSalvar
+            // button1
             // 
-            this.txtSalvar.BackColor = System.Drawing.SystemColors.MenuHighlight;
-            this.txtSalvar.Location = new System.Drawing.Point(166, 350);
-            this.txtSalvar.Name = "txtSalvar";
-            this.txtSalvar.Size = new System.Drawing.Size(160, 50);
-            this.txtSalvar.TabIndex = 10;
-            this.txtSalvar.Text = "&Salvar";
-            this.txtSalvar.UseVisualStyleBackColor = false;
-            this.txtSalvar.Click += new System.EventHandler(this.button1_Click);
+            this.button1.BackColor = System.Drawing.Color.LightSeaGreen;
+            this.button1.Location = new System.Drawing.Point(166, 350);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(160, 50);
+            this.button1.TabIndex = 10;
+            this.button1.Text = "&Salvar";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.txtSalvar);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.txtCidade);
             this.Controls.Add(this.txtEndereço);
             this.Controls.Add(this.txtTelefone);
             this.Controls.Add(this.txtSobrenome);
             this.Controls.Add(this.txtNome);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.label);
+            this.Controls.Add(this.Endereço);
+            this.Controls.Add(this.Telefone);
+            this.Controls.Add(this.Sobrenome);
+            this.Controls.Add(this.Nome);
             this.Name = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -173,17 +175,17 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label Nome;
+        private System.Windows.Forms.Label Sobrenome;
+        private System.Windows.Forms.Label Endereço;
+        private System.Windows.Forms.Label Telefone;
+        private System.Windows.Forms.Label label;
         private System.Windows.Forms.TextBox txtNome;
         private System.Windows.Forms.TextBox txtSobrenome;
         private System.Windows.Forms.TextBox txtEndereço;
         private System.Windows.Forms.TextBox txtTelefone;
         private System.Windows.Forms.TextBox txtCidade;
-        private System.Windows.Forms.Button txtSalvar;
+        private System.Windows.Forms.Button button1;
     }
 }
 
