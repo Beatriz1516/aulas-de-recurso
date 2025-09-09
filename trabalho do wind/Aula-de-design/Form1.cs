@@ -29,6 +29,18 @@ namespace Aula_de_design
 
         private void button1_Click(object sender, EventArgs e)
         {
+            Cliente cliente = new Cliente
+            {
+                Nome = txtNome.Text,
+                Sobrenome = txtSobrenome.Text,
+                Telefone = txtTelefone.Text,
+                Endereco = txtEndereço.Text,
+                Cidade = txtCidade.Text
+            };
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
 
         }
     }
